@@ -1,0 +1,37 @@
+dataset,seed,configuration,multi_objective_score,mean_shifted_perf,worst_shifted_perf,max_degradation,retention_perf,mean_latency_sec
+Family_1_Nonlinear_Reg,42,Full Proposed (OptiForge),0.6275,-1.9763,-2.3894,1.1022,-3.0144,0.167
+Family_1_Nonlinear_Reg,42,Ablation A (No Drift Detect),0.6088,-2.3732,-2.6499,1.3087,-3.0094,0.1462
+Family_1_Nonlinear_Reg,42,Ablation B (No Replay Buffer),0.6099,-2.0771,-2.6422,1.3958,-2.9498,0.0718
+Family_1_Nonlinear_Reg,42,Ablation C (No Adaptive Scale),0.5863,-2.353,-2.9178,1.5991,-2.9438,0.1592
+Family_1_Nonlinear_Reg,42,Ablation D (No Anchor Backbone),0.6174,-1.8657,-2.4787,1.2302,-3.2119,0.1741
+Family_1_Nonlinear_Reg,42,Ablation E (Random Replay),0.6129,-1.9835,-2.5011,1.27,-2.8983,0.1731
+Family_1_Nonlinear_Reg,101,Full Proposed (OptiForge),0.5964,-1.9196,-2.5838,1.4683,-2.9725,0.1754
+Family_1_Nonlinear_Reg,101,Ablation A (No Drift Detect),0.5903,-2.3484,-2.7596,1.5618,-2.6882,0.1441
+Family_1_Nonlinear_Reg,101,Ablation B (No Replay Buffer),0.5903,-2.1849,-3.0119,1.6386,-3.0242,0.0718
+Family_1_Nonlinear_Reg,101,Ablation C (No Adaptive Scale),0.5865,-2.4331,-2.8943,1.619,-2.8207,0.1375
+Family_1_Nonlinear_Reg,101,Ablation D (No Anchor Backbone),0.632,-1.727,-2.4302,1.0974,-3.3361,0.1635
+Family_1_Nonlinear_Reg,101,Ablation E (Random Replay),0.61,-2.0042,-2.5009,1.3157,-2.9245,0.1579
+Family_2_Nonlinear_Clf,42,Full Proposed (OptiForge),0.8591,0.8108,0.6616,0.1957,0.7973,0.1584
+Family_2_Nonlinear_Clf,42,Ablation A (No Drift Detect),0.8484,0.8113,0.5849,0.289,0.828,0.1434
+Family_2_Nonlinear_Clf,42,Ablation B (No Replay Buffer),0.8695,0.8039,0.6565,0.1528,0.7951,0.0611
+Family_2_Nonlinear_Clf,42,Ablation C (No Adaptive Scale),0.8457,0.801,0.6038,0.2586,0.8223,0.1604
+Family_2_Nonlinear_Clf,42,Ablation D (No Anchor Backbone),0.8169,0.7641,0.5298,0.3453,0.757,0.1618
+Family_2_Nonlinear_Clf,42,Ablation E (Random Replay),0.8701,0.8308,0.6828,0.1832,0.8483,0.1639
+Family_2_Nonlinear_Clf,101,Full Proposed (OptiForge),0.8758,0.8246,0.7378,0.1189,0.815,0.1644
+Family_2_Nonlinear_Clf,101,Ablation A (No Drift Detect),0.8708,0.8227,0.6482,0.161,0.7938,0.1415
+Family_2_Nonlinear_Clf,101,Ablation B (No Replay Buffer),0.8668,0.8033,0.6612,0.1699,0.8194,0.0596
+Family_2_Nonlinear_Clf,101,Ablation C (No Adaptive Scale),0.8499,0.7976,0.6558,0.2182,0.8264,0.1635
+Family_2_Nonlinear_Clf,101,Ablation D (No Anchor Backbone),0.8491,0.8009,0.6428,0.236,0.7723,0.1615
+Family_2_Nonlinear_Clf,101,Ablation E (Random Replay),0.8467,0.7775,0.6849,0.176,0.8274,0.1647
+Family_4_Mixed_Clf,42,Full Proposed (OptiForge),0.8594,0.8209,0.7106,0.1576,0.8294,0.1524
+Family_4_Mixed_Clf,42,Ablation A (No Drift Detect),0.8547,0.8073,0.6924,0.1697,0.8314,0.1265
+Family_4_Mixed_Clf,42,Ablation B (No Replay Buffer),0.851,0.8,0.6948,0.1964,0.8685,0.0657
+Family_4_Mixed_Clf,42,Ablation C (No Adaptive Scale),0.8529,0.808,0.7055,0.1703,0.8324,0.1464
+Family_4_Mixed_Clf,42,Ablation D (No Anchor Backbone),0.8442,0.7932,0.6715,0.1876,0.813,0.156
+Family_4_Mixed_Clf,42,Ablation E (Random Replay),0.8508,0.8123,0.6877,0.2138,0.8614,0.1606
+Family_4_Mixed_Clf,101,Full Proposed (OptiForge),0.8561,0.8179,0.6887,0.1932,0.8304,0.1489
+Family_4_Mixed_Clf,101,Ablation A (No Drift Detect),0.8626,0.8253,0.7251,0.1754,0.8683,0.1245
+Family_4_Mixed_Clf,101,Ablation B (No Replay Buffer),0.8559,0.8053,0.6678,0.1951,0.848,0.0643
+Family_4_Mixed_Clf,101,Ablation C (No Adaptive Scale),0.8444,0.8015,0.6635,0.2147,0.7976,0.1372
+Family_4_Mixed_Clf,101,Ablation D (No Anchor Backbone),0.871,0.8351,0.7214,0.1243,0.8012,0.1485
+Family_4_Mixed_Clf,101,Ablation E (Random Replay),0.8626,0.8243,0.7369,0.1549,0.8552,0.1504

@@ -1,0 +1,8 @@
+,multi_objective_score,multi_objective_score,mean_shifted_perf,worst_shifted_perf,max_degradation,initial_retention_perf,mean_update_latency_sec,peak_memory_kb
+,mean,std,mean,mean,mean,mean,mean,mean
+model,,,,,,,,
+Full Retrain (Oracle),0.6614,0.1775,-1.39,-2.2107,1.5156,-1.1834,0.2462,682.09
+Naive Incremental,0.7177,0.1269,-1.089,-1.6082,0.7964,-2.0487,0.1009,14.3
+OptiForge Adaptive (Proposed),0.6848,0.1514,-1.1152,-1.7072,1.0615,-1.4759,0.3486,223.08
+Standard Replay (K=500),0.7008,0.1397,-1.1855,-1.7028,0.9566,-1.5482,0.1633,83.97
+Static (No Update),0.6152,0.1895,-2.0786,-3.2815,2.6061,-0.6755,0.0266,14.31
